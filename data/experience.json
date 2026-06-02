@@ -1,0 +1,63 @@
+{
+  "experience": [
+    {
+      "id": "1",
+      "position": "Senior Full Stack Developer",
+      "company": "Tech Innovations Inc.",
+      "period": "2022 - Present",
+      "location": "San Francisco, CA",
+      "description": "Leading development of scalable web applications using modern technologies. Collaborating with cross-functional teams to deliver high-quality products.",
+      "achievements": [
+        "Increased application performance by 40% through optimization",
+        "Led a team of 5 developers on multiple projects",
+        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      ]
+    },
+    {
+      "id": "2",
+      "position": "Full Stack Developer",
+      "company": "Digital Solutions LLC",
+      "period": "2020 - 2022",
+      "location": "New York, NY",
+      "description": "Developed and maintained multiple client projects using React, Node.js, and cloud services. Worked closely with clients to understand requirements and deliver solutions.",
+      "achievements": [
+        "Delivered 15+ client projects on time and within budget",
+        "Improved code quality by implementing best practices",
+        "Mentored junior developers"
+      ]
+    },
+    {
+      "id": "3",
+      "position": "Frontend Developer",
+      "company": "Web Creations Studio",
+      "period": "2019 - 2020",
+      "location": "Remote",
+      "description": "Created responsive and interactive user interfaces for various web applications. Focused on user experience and modern design principles.",
+      "achievements": [
+        "Built 20+ responsive websites",
+        "Improved user engagement by 35%",
+        "Collaborated with designers to implement pixel-perfect designs"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Technology",
+      "period": "2015 - 2019",
+      "location": "Boston, MA",
+      "description": "Focused on software engineering, web development, and database systems. Participated in various coding competitions and hackathons.",
+      "gpa": "3.8/4.0"
+    },
+    {
+      "id": "2",
+      "degree": "Full Stack Web Development Bootcamp",
+      "institution": "Coding Academy",
+      "period": "2019",
+      "location": "Online",
+      "description": "Intensive 6-month program covering modern web development technologies including React, Node.js, and databases."
+    }
+  ]
+}
+

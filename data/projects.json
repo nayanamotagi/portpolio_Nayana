@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-Commerce Platform",
+      "description": "A full-featured e-commerce platform with shopping cart, payment integration, and admin dashboard. Built with Next.js and Stripe.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Stripe",
+        "Tailwind CSS",
+        "MongoDB"
+      ],
+      "liveUrl": "shoppingapp-frontend-6c3v-2e1iqsh60-nayanamotagis-projects.vercel.app",
+      "githubUrl": "https://github.com/nayanamotagi/shoppingapp_frontend"
+    },
+    {
+      "id": "2",
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+      "techStack": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "PostgreSQL",
+        "Material-UI"
+      ],
+      "liveUrl": "https://project-tracking-frontend-jze6-cpknyvzzm-nayanamotagis-projects.vercel.app/",
+      "githubUrl": "https://github.com/nayanamotagi/Project_tracking_frontend"
+    },
+    {
+      "id": "3",
+      "title": "Weather Dashboard",
+      "description": "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
+      "techStack": [
+        "Vue.js",
+        "Chart.js",
+        "OpenWeather API",
+        "Vite"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com/example"
+    },
+    {
+      "id": "4",
+      "title": "Social Media Analytics",
+      "description": "Analytics dashboard for social media metrics with real-time data visualization and comprehensive reporting tools.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      "techStack": [
+        "Next.js",
+        "Python",
+        "D3.js",
+        "FastAPI",
+        "Redis"
+      ],
+      "liveUrl": "https://data-analytics-dashboard-frontend-qz4l6vact.vercel.app",
+      "githubUrl": "https://github.com/nayanamotagi/Data_Analytics_Dashboard_frontend"
+    },
+    {
+      "id": "5",
+      "title": "Real-Time Chat Application",
+      "description": "A modern real-time chat application with instant messaging, user authentication, responsive design, and seamless communication features",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+      "techStack": [
+        "React",
+        "Django",
+        "PostgreSQL",
+        "AWS S3",
+        "Stripe"
+      ],
+      "liveUrl": "chat-app-frontend-2rte-mgrq3bhpz-nayanamotagis-projects.vercel.app",
+      "githubUrl": "https://github.com/nayanamotagi/Chat_APP_frontend"
+    }
+  ]
+}

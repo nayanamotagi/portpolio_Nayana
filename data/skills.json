@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "icon": "🎨",
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Redux",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "Backend",
+      "icon": "⚙️",
+      "skills": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "REST APIs",
+        "GraphQL",
+        "Firebase",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Tools & Others",
+      "icon": "🛠️",
+      "skills": [
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Figma",
+        "Adobe XD",
+        "Jest",
+        "Webpack",
+        "Vite",
+        "Linux",
+        "VS Code"
+      ]
+    }
+  ]
+}
+
