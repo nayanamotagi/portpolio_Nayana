@@ -90,7 +90,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto">
         <SectionTitle
           title="Get In Touch"
-          subtitle="Have a project in mind? Let's work together to bring it to life"
+          subtitle="Have a project in mind? Let&apos;s work together to bring it to life"
         />
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -103,10 +103,10 @@ export default function Contact() {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold text-dark-900 dark:text-dark-50 mb-6">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
             <p className="text-lg text-dark-600 dark:text-dark-400 leading-relaxed">
-              I'm always open to discussing new projects, creative ideas, or opportunities
+              I&apos;m always open to discussing new projects, creative ideas, or opportunities
               to be part of your visions. Feel free to reach out through any of the channels below.
             </p>
 
@@ -226,11 +226,10 @@ export default function Contact() {
             {/* Status Message */}
             {statusMessage && (
               <div
-                className={`flex items-center gap-2 p-4 rounded-lg ${
-                  status === "success"
+                className={`flex items-center gap-2 p-4 rounded-lg ${status === "success"
                     ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
                     : "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300"
-                }`}
+                  }`}
               >
                 {status === "success" ? (
                   <CheckCircle className="w-5 h-5" />
@@ -246,7 +245,7 @@ export default function Contact() {
               variant="primary"
               size="lg"
               className="w-full flex items-center justify-center gap-2"
-              onClick={() => {}}
+              onClick={() => { }}
             >
               {status === "loading" ? (
                 <>

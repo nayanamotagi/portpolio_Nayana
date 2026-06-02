@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-primary-600 dark:text-primary-400 font-medium mb-4"
         >
-          Hello, I'm
+          Hello, I&apos;m
         </motion.p>
 
         {/* Name */}

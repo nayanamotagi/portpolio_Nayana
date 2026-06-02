@@ -61,17 +61,17 @@ export default function About() {
             <h3 className="text-3xl font-bold text-dark-900 dark:text-dark-50">
               Passionate Developer & Creative Problem Solver
             </h3>
-            
+
             <p className="text-lg text-dark-600 dark:text-dark-400 leading-relaxed">
-              I'm a full-stack developer with a passion for creating beautiful, functional,
+              I&apos;m a full-stack developer with a passion for creating beautiful, functional,
               and user-centered digital experiences. With over 5 years of experience in web
-              development, I've worked on various projects ranging from small business websites
+              development, I&apos;ve worked on various projects ranging from small business websites
               to complex web applications.
             </p>
-            
+
             <p className="text-lg text-dark-600 dark:text-dark-400 leading-relaxed">
               My expertise includes modern JavaScript frameworks, responsive design, and
-              creating seamless user experiences. I'm always eager to learn new technologies
+              creating seamless user experiences. I&apos;m always eager to learn new technologies
               and take on challenging projects that push my boundaries.
             </p>
 

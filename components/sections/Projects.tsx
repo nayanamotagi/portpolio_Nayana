@@ -18,7 +18,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto">
         <SectionTitle
           title="Featured Projects"
-          subtitle="A selection of projects I've worked on recently"
+          subtitle="A selection of projects I&apos;ve worked on recently"
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
