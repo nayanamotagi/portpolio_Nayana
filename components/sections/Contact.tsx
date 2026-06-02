@@ -68,19 +68,19 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "nayanamotagi24@gmail.com",
+      href: "mailto:nayanamotagi24@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (234) 567-8900",
-      href: "tel:+12345678900",
+      value: "9945516910",
+      href: "tel:+91 9945516910",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country",
+      value: "Kempapura, hebbal Bangalore",
       href: "#",
     },
   ];
@@ -227,8 +227,8 @@ export default function Contact() {
             {statusMessage && (
               <div
                 className={`flex items-center gap-2 p-4 rounded-lg ${status === "success"
-                    ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
-                    : "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300"
+                  ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
+                  : "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300"
                   }`}
               >
                 {status === "success" ? (

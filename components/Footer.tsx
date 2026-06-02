@@ -13,10 +13,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: "GitHub", icon: Github, href: "https://github.com", ariaLabel: "Visit GitHub profile" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com", ariaLabel: "Visit LinkedIn profile" },
-    { name: "Twitter", icon: Twitter, href: "https://twitter.com", ariaLabel: "Visit Twitter profile" },
-    { name: "Email", icon: Mail, href: "mailto:your.email@example.com", ariaLabel: "Send email" },
+    { name: "GitHub", icon: Github, href: "https://github.com/nayanamotagi", ariaLabel: "Visit GitHub profile" },
+    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/in/nayana-motagi", ariaLabel: "Visit LinkedIn profile" },
+    { name: "Email", icon: Mail, href: "mailto:nayanamotagi24@gmail.com", ariaLabel: "Send email" },
   ];
 
   const quickLinks = [
