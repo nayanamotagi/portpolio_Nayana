@@ -79,6 +79,9 @@ export default function Hero() {
           </Button>
           <Button
             href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
             variant="secondary"
             size="lg"
             className="flex items-center gap-2"

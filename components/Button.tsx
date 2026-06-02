@@ -15,6 +15,9 @@ interface ButtonProps {
   variant?: "primary" | "secondary" | "outline";
   size?: "sm" | "md" | "lg";
   href?: string;
+  target?: string;
+  rel?: string;
+  download?: boolean | string;
   onClick?: () => void;
   children: ReactNode;
   className?: string;
@@ -25,6 +28,9 @@ export default function Button({
   variant = "primary",
   size = "md",
   href,
+  target,
+  rel,
+  download,
   onClick,
   children,
   className = "",
@@ -32,14 +38,14 @@ export default function Button({
 }: ButtonProps) {
   // Base styles for all buttons
   const baseStyles = "inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2";
-  
+
   // Variant styles
   const variants = {
     primary: "bg-primary-600 hover:bg-primary-700 text-white focus:ring-primary-500 shadow-lg hover:shadow-xl",
     secondary: "bg-accent-600 hover:bg-accent-700 text-white focus:ring-accent-500 shadow-lg hover:shadow-xl",
     outline: "border-2 border-primary-600 dark:border-primary-400 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 focus:ring-primary-500",
   };
-  
+
   // Size styles
   const sizes = {
     sm: "px-4 py-2 text-sm",
@@ -49,7 +55,25 @@ export default function Button({
 
   const buttonClasses = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`;
 
-  // If href is provided, render as Link
+  const isExternalLink = href?.startsWith("http") || href?.startsWith("mailto:") || href?.startsWith("tel:");
+  const isDownloadLink = href?.endsWith(".pdf");
+  const isHashLink = href?.startsWith("#");
+
+  // If href looks like an external or download link, render as a normal anchor.
+  if (href && (isExternalLink || isDownloadLink || isHashLink)) {
+    return (
+      <a
+        href={href}
+        className={buttonClasses}
+        target={target}
+        rel={rel ?? (target === "_blank" ? "noopener noreferrer" : undefined)}
+        download={download}
+      >
+        {children}
+      </a>
+    );
+  }
+
   if (href) {
     return (
       <Link href={href} className={buttonClasses}>
