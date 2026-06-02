@@ -9,6 +9,7 @@
         "Next.js",
         "TypeScript",
         "Stripe",
+        "CASL",
         "Tailwind CSS",
         "MongoDB"
       ],
@@ -23,53 +24,41 @@
       "techStack": [
         "React",
         "Node.js",
-        "Socket.io",
-        "PostgreSQL",
-        "Material-UI"
+        "JWT",
+        "MongoDB",
+        "Tailwind CSS"
       ],
       "liveUrl": "https://project-tracking-frontend-jze6-cpknyvzzm-nayanamotagis-projects.vercel.app/",
       "githubUrl": "https://github.com/nayanamotagi/Project_tracking_frontend"
     },
     {
       "id": "3",
-      "title": "Weather Dashboard",
-      "description": "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.",
-      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-      "techStack": [
-        "Vue.js",
-        "Chart.js",
-        "OpenWeather API",
-        "Vite"
-      ],
-      "liveUrl": "https://example.com",
-      "githubUrl": "https://github.com/example"
-    },
-    {
-      "id": "4",
       "title": "Social Media Analytics",
       "description": "Analytics dashboard for social media metrics with real-time data visualization and comprehensive reporting tools.",
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
       "techStack": [
-        "Next.js",
-        "Python",
-        "D3.js",
-        "FastAPI",
-        "Redis"
+        "firebase",
+        "jsonwebtoken",
+        "Node js",
+        "Recharts ",
+        "React",
+        "cors"
       ],
       "liveUrl": "https://data-analytics-dashboard-frontend-qz4l6vact.vercel.app",
       "githubUrl": "https://github.com/nayanamotagi/Data_Analytics_Dashboard_frontend"
     },
     {
-      "id": "5",
+      "id": "4",
       "title": "Real-Time Chat Application",
       "description": "A modern real-time chat application with instant messaging, user authentication, responsive design, and seamless communication features",
       "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
       "techStack": [
         "React",
-        "Django",
-        "PostgreSQL",
-        "AWS S3",
-        "Stripe"
+        "Tailwind CSS",
+        "Socket.IO ",
+        "Nodemailer",
+        "Mongo Db",
+        "Node js"
       ],
       "liveUrl": "chat-app-frontend-2rte-mgrq3bhpz-nayanamotagis-projects.vercel.app",
       "githubUrl": "https://github.com/nayanamotagi/Chat_APP_frontend"
