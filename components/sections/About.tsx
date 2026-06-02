@@ -15,8 +15,8 @@ import Image from "next/image";
  */
 export default function About() {
   const highlights = [
-    "5+ Years of Experience",
-    "50+ Projects Completed",
+    "1+ Years of Experience",
+    "15+ Projects Completed",
     "Full Stack Expertise",
     "UI/UX Design Skills",
   ];
@@ -61,12 +61,13 @@ export default function About() {
             <h3 className="text-3xl font-bold text-dark-900 dark:text-dark-50">
               Passionate Developer & Creative Problem Solver
             </h3>
-
             <p className="text-lg text-dark-600 dark:text-dark-400 leading-relaxed">
-              I&apos;m a full-stack developer with a passion for creating beautiful, functional,
-              and user-centered digital experiences. With over 5 years of experience in web
-              development, I&apos;ve worked on various projects ranging from small business websites
-              to complex web applications.
+              I&apos;m a passionate Developer & Creative Problem Solver with 1 year of experience in
+              Frontend and Full Stack Development. I enjoy building responsive, user-friendly,
+              and scalable web applications using modern technologies like React.js, JavaScript,
+              HTML, CSS, Node.js, Express.js, and MongoDB. I&apos;m dedicated to creating innovative
+              digital solutions, enhancing user experiences, and continuously learning new
+              technologies to solve real-world challenges.
             </p>
 
             <p className="text-lg text-dark-600 dark:text-dark-400 leading-relaxed">

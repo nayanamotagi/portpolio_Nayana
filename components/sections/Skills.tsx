@@ -36,7 +36,7 @@ export default function Skills() {
                 <span className="text-3xl">{category.icon}</span>
                 {category.name}
               </h3>
-              
+
               <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.span
