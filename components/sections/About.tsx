@@ -43,7 +43,7 @@ export default function About() {
                 src="/profile.jpeg"
                 alt="Nayana"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
