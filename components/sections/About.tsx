@@ -38,13 +38,15 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="relative"
           >
-            <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-2xl border border-primary-100 dark:border-primary-800 bg-dark-100 dark:bg-dark-800">
               <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop"
+                src="/profile.jpeg"
                 alt="Nayana"
                 fill
                 className="object-cover"
+                priority
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
             </div>
             {/* Decorative gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/20 to-accent-600/20 rounded-2xl -z-10 transform rotate-6" />
