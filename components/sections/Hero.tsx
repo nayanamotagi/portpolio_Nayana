@@ -39,7 +39,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6"
         >
           <span className="bg-gradient-to-r from-primary-600 via-accent-600 to-primary-600 bg-clip-text text-transparent animate-gradient">
-            Nayana
+            Nayana Motagi
           </span>
         </motion.h1>
 
@@ -50,7 +50,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl md:text-4xl font-semibold text-dark-700 dark:text-dark-300 mb-6"
         >
-          Full Stack Developer & UI/UX Designer
+          MERN Stack Developer
         </motion.h2>
 
         {/* Description */}
@@ -60,8 +60,10 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg md:text-xl text-dark-600 dark:text-dark-400 mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          I create beautiful, functional, and user-centered digital experiences.
-          Passionate about clean code, modern design, and innovative solutions.
+          I build responsive and scalable full-stack web applications
+          using MongoDB, Express.js, React.js, and Node.js.
+          Passionate about creating modern UI, REST APIs,
+          and seamless user experiences.
         </motion.p>
 
         {/* CTA Buttons */}
