@@ -62,6 +62,44 @@
       ],
       "liveUrl": "chat-app-frontend-2rte-mgrq3bhpz-nayanamotagis-projects.vercel.app",
       "githubUrl": "https://github.com/nayanamotagi/Chat_APP_frontend"
+    },
+    {
+      "id": "5",
+      "title": "Ticket Booking System",
+      "description": "A full-stack ticket booking platform that enables users to browse events, reserve and confirm seats, manage wallet transactions, transfer wallet balance, and allows administrators to manage events, bookings, seats, and refunds through a dedicated admin dashboard.",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Authentication",
+        "Mongoose",
+        "Vite"
+      ],
+      "liveUrl": "https://ticket-booking-system-frontend-6wdwhd8gn-nayanamotagis-projects.vercel.app/",
+      "githubUrl": "https://github.com/nayanamotagi/Ticket_booking_system_frontend"
+    },
+    {
+      "id": "6",
+      "title": "Ticket Booking Admin Portal",
+      "description": "A comprehensive admin dashboard for managing a ticket booking platform. It enables administrators to create and manage events, monitor seat availability, oversee bookings, process wallet refunds, track transactions, and view real-time analytics through a secure and responsive interface.",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Authentication",
+        "REST API",
+        "Vite"
+      ],
+      "liveUrl": "https://ticket-booking-admin-frontend-l64gzjxv9-nayanamotagis-projects.vercel.app/",
+      "githubUrl": "https://github.com/nayanamotagi/Ticket_booking_admin_frontend"
     }
   ]
 }
